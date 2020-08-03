@@ -20,7 +20,7 @@ print(read_data)
 # sure that it contains what you expect it to contain
 
 f = open("src/bar.txt", "x")
-f.write("three lines\n")
-f.write("of arbitrary\n")
+f.write("three lines of\n")
+f.write("arbitrary\n")
 f.write("content\n")
 f.close()
